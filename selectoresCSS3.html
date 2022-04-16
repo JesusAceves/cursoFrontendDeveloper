@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            color: orange;
+        }
+        p:hover{
+            color: purple;
+        }
+        body p:nth-child(2){
+            color:green;
+        }
+        p::first-letter{
+            background: gray;
+        }
+        p::after{
+            content:"...";
+        }
+        p::before{
+            content: "...";
+        }
+    </style>
+</head>
+<body>
+    <p>Este es</p>
+    <p>un texto</p>
+    <p>de prueba</p>
+</body>
+</html>
